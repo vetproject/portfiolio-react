@@ -74,7 +74,7 @@
     .hero-image img{
         width: 100%;
         height: auto;
-        max-width: 400px;
+        max-width: 250px;
         margin: 0 auto;
     }
     .hero-section {
@@ -88,17 +88,17 @@
     }
 
     .hero-title {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .hero-subtitle {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         margin-bottom: 30px;
     }
 
     .hero-buttons .btn-primary {
-        padding: 10px 24px;
-        font-size: 0.95rem;
+        padding: 10px 20px;
+        font-size: 0.7rem;
     }
 }
 

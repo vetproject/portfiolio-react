@@ -52,3 +52,20 @@
   height: 24px;
   filter: brightness(1.2); /* Slight glow */
 }
+
+@media screen and (max-width: 600px) {
+  .tech-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .skill p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  .tech-item {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    border: #46caff 1px solid;
+  }
+  
+}

@@ -96,7 +96,7 @@
 
 /* Responsive styles */
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .contact-wrapper {
         padding: 10px;
     }
@@ -120,9 +120,9 @@
     }
     .info-block {
         margin: 10px 0;
-        font-size: 13px;
+        font-size: 10px;
     }
     .icon {
-        font-size: 20px;
+        font-size: 10px;
     }
 }
