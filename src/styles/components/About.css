@@ -44,7 +44,7 @@
 }
 
 .card {
-  padding: 20px;
+  padding: 10px;
   width: 30%;
   border-radius: 15px;
   border: 1px solid #46caff;
@@ -84,19 +84,18 @@
 
   .about-info {
     max-width: 100%;
-    /* text-align: center; */
     padding: 0 10px;
   }
 
   .cards {
-    gap: 12px;
+    gap: 10px;
     align-items: center;
   }
 
   .card {
     width: 90%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 10px;
     border-radius: 12px;
     font-size: 13px;
     box-shadow: 0 2px 8px rgba(167, 139, 250, 0.08);
@@ -107,11 +106,11 @@
   }
 
   .card h3 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .card p {
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .description {
