@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/change_action/ThemeToggle.css"; // You’ll create this CSS file
+import "../styles/change_action/ThemeToggle.css"; 
 
 export default function ThemeToggle() {
   const [dark, setDark] = useState(() =>
@@ -17,7 +17,7 @@ export default function ThemeToggle() {
       onClick={() => setDark(!dark)}
       aria-label="Toggle Theme"
     >
-      {dark ? "🌙 Dark Mode" : "☀️ Light Mode"}
+      {dark ? "🌙" : "☀️"}
     </button>
   );
 }

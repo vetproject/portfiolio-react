@@ -80,6 +80,13 @@ export default function Header() {
             {t("header.skills")}
           </a>
           <a
+            href="#Experience"
+            className={activeLink === 'experience' ? 'active' : ''}
+            onClick={() => handleLinkClick('experience')}
+          >
+            {t("header.experience")}
+          </a>
+          <a
             href="#Projects"
             className={activeLink === 'projects' ? 'active' : ''}
             onClick={() => handleLinkClick('projects')}

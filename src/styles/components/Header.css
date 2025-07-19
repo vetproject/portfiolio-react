@@ -95,7 +95,8 @@
 /* === MOBILE STYLES === */
 @media screen and (max-width: 800px) {
   .header-action {
-    display: block;
+    display: flex;
+    align-items: center;
   }
 
   .header-actions {

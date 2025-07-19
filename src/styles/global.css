@@ -59,6 +59,10 @@ color: #eee;
   gap: 1rem;
 }
 
+.dark .lang-toggle-btn{
+  color: #fff;
+}
+
 
 
 /* Customize scrollbar for WebKit browsers */

@@ -1,0 +1,100 @@
+{
+  "header": {
+    "first": "尤尔恩",
+    "last": "林",
+    "home": "首页",
+    "about": "关于我",
+    "skills": "我的技能",
+    "education": "教育背景",
+    "experience": "工作经验",
+    "projects": "我的项目",
+    "contact": "联系我",
+    "downloadCV": "下载简历",
+    "role": "网页开发者"
+  },
+  "hero": {
+    "title": "我的个人作品集",
+    "subtitle": "网页开发者",
+    "description": "我是一名网页开发者，专注于通过制作超出您期望的产品来解决您的问题。",
+    "buttonText": "下载简历"
+  },
+  "about": {
+    "title": "关于我",
+    "description": "热情的网页开发者，拥有创建用户友好网页应用和移动解决方案的经验。精通JavaScript框架如ReactJS和VueJS，具备HTML、CSS和PHP的扎实基础。团队合作精神，能在高压环境中表现出色，致力于持续学习和发展。",
+    "experience": "经验",
+    "projects": "项目",
+    "support": "支持",
+    "contact": "联系",
+    "exdes": "1年以上工作经验",
+    "prdes": "10个以上项目",
+    "codes": "全天候在线"
+  },
+  "project": {
+    "title": "我的项目",
+    "des": {
+      "all": "所有",
+      "system": "系统",
+      "application": "应用",
+      "website": "网站",
+      "portfolio": "作品集"
+    },
+    "port1": {
+      "description": "这是我在2024年建立的第一个作品集网站。它是一个简单的单页网站，依赖于Bootstrap。自那时以来，我认为我的网页开发和设计技能有了极大的提升。"
+    },
+    "lms": {
+      "description": "一个请假管理系统，允许员工提交请假请求，管理层可以批准或拒绝。作为学校项目开发，为我提供了与现实世界协作的实际经验。"
+    },
+    "pos": {
+      "description": "一个为零售企业管理销售、库存和客户交易的POS系统。在一次JavaScript课程中创建。"
+    },
+    "pet": {
+      "description": "一个用于出售宠物和用品的网站。客户可以浏览、购买并预约与宠物相关的服务。"
+    },
+    "easy": {
+      "description": "一个用于预订酒店、租车和探索目的地的旅行网站。提供用户友好的预订和旅行建议。"
+    },
+    "buspad": {
+      "description": "Buspad是一个在公交车上使用的应用，可以观看电影、听音乐和浏览在线内容，使旅行更加愉快。"
+    },
+    "card": {
+      "description": "一个生成和管理数字员工卡的系统。允许组织创建可定制的员工身份证，安全发放，并实时验证。管理员可以跟踪卡的使用情况，管理员工记录，并生成详细报告。"
+    },
+    "ims": {
+      "description": "一个用于企业跟踪库存水平、管理供应商和处理订单的库存管理系统。该系统提供低库存的自动警报、详细的库存分析，以及与销售渠道的集成。"
+    }
+  },
+  "skills": {
+    "title": "我的技能",
+    "description": "我拥有多样化的技能，包括网页开发、移动应用开发和数据库管理。我精通多种编程语言和框架，能够创建高效且可扩展的应用程序。"
+  },
+  "experience": {
+    "title": "工作经验",
+    "des": {
+      "vireak": "我使用HTML、CSS、JavaScript、PHP和MySQL开发网站，创建用户友好的网页应用以简化数据访问。我使用MySQL管理数据库，以确保高效的数据处理。此外，我开发了一款名为Buspad的Android应用，使用Java在Android Studio中设计简单的界面，并加入实时更新功能。我还进行了彻底的测试，以确保应用程序的顺利运行。",
+      "dia": "作为应用开发者，我与团队合作，利用SQL Server和Report Builder开发针对业务用户的报告。我的职责包括支持和维护管理信息系统（MIS），以确保数据的最佳功能和可访问性。",
+      "asociation": "完成了一项为期两年的信息技术和网页开发综合项目，获得了HTML、CSS、JavaScript、Vue.js、Laravel、Node.js、MySQL等的实践经验，并参与了许多基于项目的学习活动。于2025年2月毕业。",
+      "bas": "从班提耶查玛高中毕业，专注于科学。于2022年毕业。"
+    }
+  },
+  "contact": {
+    "title": "联系我",
+    "formTitle": "有问题吗？",
+    "description": "如有任何询问或合作，请随时与我联系。我始终乐于接受新的机会和讨论。",
+    "form": {
+      "name": "姓名",
+      "email": "电子邮箱",
+      "message": "信息",
+      "submit": "发送信息"
+    },
+    "text": {
+      "name": "您的电话号码",
+      "email": "您的位置",
+      "message": "您的电子邮箱"
+    },
+    "info": {
+      "phonenumber": "电话号码",
+      "address": "地址",
+      "email": "电子邮箱"
+    }
+  }
+}

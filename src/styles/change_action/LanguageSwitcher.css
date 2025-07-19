@@ -1,22 +1,32 @@
 .lang-toggle-btn {
-  background: linear-gradient(135deg, #6d5dfc, #46caff);
-  color: #fff;
   border: none;
-  padding: 8px 16px;
-  border-radius: 30px;
   font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(70, 202, 255, 0.3);
+  background: none;
+}
+
+.lang-toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 .lang-toggle-btn:hover {
-  background: linear-gradient(135deg, #46caff, #6d5dfc);
-  box-shadow: 0 6px 18px rgba(70, 202, 255, 0.4);
+  box-shadow: #46caff 0px 0px 10px 2px;
+  transition: box-shadow 0.3s ease;
 }
 
-.lang-toggle-btn:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(109, 93, 252, 0.4);
+.lang-flag {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 2px;
 }
