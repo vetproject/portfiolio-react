@@ -1,0 +1,22 @@
+.theme-toggle-btn {
+  background: linear-gradient(135deg, #6d5dfc, #46caff);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(70, 202, 255, 0.3);
+}
+
+.theme-toggle-btn:hover {
+  background: linear-gradient(135deg, #46caff, #6d5dfc);
+  box-shadow: 0 6px 18px rgba(70, 202, 255, 0.4);
+}
+
+.theme-toggle-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(109, 93, 252, 0.4);
+}

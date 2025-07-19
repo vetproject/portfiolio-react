@@ -1,0 +1,54 @@
+.skill {
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif; /* Optional: futuristic font */
+}
+
+.skill h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skill p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Grid wrapper styled like the green container in your image */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Each tech item styled like the dark boxes inside */
+.tech-item {
+  background-color: #0f0f0f; /* Inner dark boxes */
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #46caff; 
+  font-weight: bold;
+  box-shadow: 0 0 10px #46caff(0, 255, 136, 0.2);
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+/* Optional hover effect */
+.tech-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px 2px #46caff, 0 0 40px 4px #6d5dfc;
+}
+
+/* Icon images */
+.tech-item img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(1.2); /* Slight glow */
+}

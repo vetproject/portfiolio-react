@@ -1,0 +1,100 @@
+{
+  "header": {
+    "first": "njnj",
+    "last": "mkmkN",
+    "home": "Home",
+    "about": "About Me",
+    "skills": "My Skills",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "My Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV",
+    "role": "Web Developer"
+  },
+  "hero": {
+    "title": "My Personal Portfolio",
+    "subtitle": "Web Developer",
+    "description": "I'm a web developer that focuses on solving your problems by making a product that will exceed your expectations so far.",
+    "buttonText": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Enthusiastic Web Developer with experience in creating user-friendly web applications and mobile solutions. Proficient in JavaScript frameworks like ReactJS and VueJS, with a strong foundation in HTML, CSS, and PHP. A team player who excels in high-pressure environments and is committed to continuous learning and development.",
+    "experience": "Experience",
+    "projects": "Projects",
+    "support": "Support",
+    "contact": "Contact",
+    "exdes": "1+ years working",
+    "prdes": "10+ Projects",
+    "codes": "Online 24/7"
+  },
+  "project":{
+    "title": "My Projects",
+    "des": {
+      "all": "All",
+      "system": "System",
+      "application": "Application",
+      "website": "Website",
+      "portfolio": "Portfolio"
+    },
+    "port1":{
+      "description": "This was my first portfolio website I built in 2024. It is a simple one-pager like this one, but relied heavily on Bootstrap. Since then, I think my web development and design skills have expanded immensely."
+    },
+    "lms":{
+      "description": "A Leave Management System that allows employees to submit leave requests and managers to approve or reject them. Developed as a school project, it provided hands-on experience with real-world collaboration."
+    },
+    "pos":{
+      "description": "A POS system for retail businesses to manage sales, inventory, and customer transactions. Created during a JavaScript course."
+    },
+    "pet": {
+      "description": "A site for selling pets and supplies. Customers can browse, purchase, and book pet-related services."
+    },
+    "easy": {
+      "description": "A travel website for booking hotels, renting cars, and exploring destinations. It offers user-friendly booking and travel recommendations."
+    },
+    "buspad": {
+      "description": "Buspad is an app used on buses to watch movies, listen to music, and browse online, making travel enjoyable."
+    },
+    "card":{
+      "description": "A system for generating and managing digital employee cards. It allows organizations to create customizable employee ID cards, issue them securely, and validate them in real-time. Administrators can track card usage, manage employee records, and generate detailed reports."
+    },
+    "ims":{
+      "description": "An inventory management system for businesses to track stock levels, manage suppliers, and process orders. The system provides automated alerts for low stock, detailed inventory analytics, and integration with sales channels."
+    }
+  },
+  "skills": {
+    "title": "My Skills",
+    "description": "I have a diverse skill set that includes web development, mobile app development, and database management. I am proficient in various programming languages and frameworks, allowing me to create efficient and scalable applications."
+  },
+  "experience": {
+    "title": "Experience",
+    "des" :{
+      "vireak": "I developed websites using HTML, CSS, JavaScript, PHP, and MySQL, creating user-friendly web applications that streamline data access. I managed databases with MySQL to ensure efficient data handling. Additionally, I developed an Android app called Buspad using Java in Android Studio, where I designed simple screens and incorporated features for real-time updates. I also conducted thorough testing to ensure the app functions seamlessly.",
+      "dia": "I collaborated with a team as an Application Developer, utilizing SQL Server and Report Builder to develop reports tailored for business users. My responsibilities included supporting and maintaining Management Information Systems (MIS) to ensure optimal functionality and accessibility of data.",
+      "asociation": "Completed a comprehensive two-year program focused on information technology and web development. Gained hands-on experience in HTML, CSS, JavaScript, Vue.js, Laravel, Node.js, databases like MySQL, and participated in many project-based learning activities. Graduated in February 2025.",
+      "bas": "Graduated from Banteay Chhmar High School with a focus on science. Graduated in 2022."
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "formTitle": "Have a question?",
+    "description": "Feel free to reach out to me for any inquiries or collaborations. I'm always open to new opportunities and discussions.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "text":{
+      "name": "Your Phone Number",
+      "email": "Your Location",
+      "message": "Your Email"
+    },
+    "info": {
+      "phonenumber": "Phone Number",
+      "address": "Location",
+      "email": "Email"
+    }
+  }
+}

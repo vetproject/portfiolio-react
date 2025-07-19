@@ -1,0 +1,83 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px; /* Adjust for fixed header if needed */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #e4e2e2;
+  color: #222;
+  transition: all 0.3s ease;
+  font-family: "Suwannaphum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#Home{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+.navbar{
+  background: #e4e2e2;
+}
+.dark .navbar {
+  background: #111;
+}
+.nav-links a {
+  color: #111;
+}
+.dark {
+  background: #111;
+  color: #eee;
+}
+.nav-links {
+  background: #e4e2e2;
+}
+.dark .nav-links {
+  background: #111;
+}
+.dark .nav-links a {
+  color: #eee;
+}
+.dark .menu-toggle {
+color: #eee;
+}
+.container {
+  padding: 20px;
+}
+
+.header,
+.about {
+  margin-bottom: 2rem;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+
+
+/* Customize scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #eae7e7; /* light gray */
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #ff6b6b;    /* dark gray */
+  border-radius: 10px;       /* rounded edges */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #46caff;
+}

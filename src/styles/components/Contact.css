@@ -1,0 +1,128 @@
+.contact-wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contact-heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-heading .highlight {
+    color: #f75b68;
+    font-style: italic;
+}
+
+.contact-subheading {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #46caff;
+    border-radius: 8px;
+    color: #46caff;
+    font-size: 14px;
+    background: none;
+}
+
+.submit-button {
+    background-color: #46caff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #ff5e62;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.info-block i {
+    font-size: 24px;
+    display: block;
+    color: #46caff;
+    margin-bottom: 5px;
+}
+
+/* Responsive styles */
+
+@media (max-width: 600px) {
+    .contact-wrapper {
+        padding: 10px;
+    }
+    .contact-heading {
+        font-size: 22px;
+    }
+    .contact-subheading {
+        font-size: 14px;
+    }
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    .form-group {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .contact-info {
+        align-items: stretch;
+        margin-top: 20px;
+    }
+    .info-block {
+        margin: 10px 0;
+        font-size: 13px;
+    }
+    .icon {
+        font-size: 20px;
+    }
+}

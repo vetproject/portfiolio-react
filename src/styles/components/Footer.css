@@ -1,0 +1,23 @@
+.footer {
+  text-align: center;
+  padding: 40px 20px 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid #46caff;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.footer-copy {
+  font-size: 14px;
+}
+
+.footer-copy .highlight {
+  font-weight: bold;
+  font-style: italic;
+  color: #f75b68;
+}
